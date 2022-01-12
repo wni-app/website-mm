@@ -1,18 +1,12 @@
 ---
-permalink: /about/
-title: "About"
-#sidebar:
-#  - title: ""
-#    image: /assets/images/fluent_share_xlarge.png
-#    image_alt: "image"
-#    text: "[![Test Link](/assets/images/share-fluent.png)](https://www.google.com)"
-
+permalink: /shared-thread/
+title: "Shared Thread"
 author_profile: true
 author:
-  name   : "Shared Thread"
+  name   : "Share a thread between messaging channels"
   avatar : "/assets/images/fluent_share_xlarge.png"
-  bio    : "Share a thread between channels on Microsoft Teams or Slack"
-  home   : /posts/
+  bio    : "Message people outside your channel on Microsoft Teams or Slack, as easy as setting up a conference bridge.  \n\nStart using with the following links:"
+  home   : /shared-thread/
   links:
     - label: "Microsoft Teams App Package"
       icon: "fas fa-cloud-download-alt"
@@ -23,10 +17,9 @@ author:
 #   - label: "GitHub"
 #     icon: "fab fa-fw fa-github"
 #     url: "https://github.com/"
-    
 
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
@@ -34,8 +27,11 @@ Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad veli
 
 Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
 
+![some pic](https://user-images.githubusercontent.com/8999611/148812100-38a32742-31d8-4b3a-9736-aafe19b95d6c.png)
+
 # First heading
 
 ## Another heading
 
 ## And one more
+
