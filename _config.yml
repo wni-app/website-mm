@@ -87,7 +87,9 @@ footer:
     - label: "YouTube"
       icon: "fab fa-youtube"
       url: "https://www.youtube.com/channel/UCfZkPuGdNfHwyjzEBREFnsA/"
-
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "mailto:heya@wni.app"
 
 defaults:
   # _posts
