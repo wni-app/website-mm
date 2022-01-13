@@ -1,27 +1,13 @@
-# Minimal Mistakes remote theme starter
+# Your Issues are Welcome Here!
+This repo is just for our website, but we'd encourage you to submit issues here for any of the following:
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+## Documentation
+- Corrections or things that don't make sense.  It would be awesome if you could provide a link to the relevant paragraph. 
+- Suggestions for adding new material, videos, etc.
 
-Contains basic configuration to get you a site with:
+## Reporting Bugs
+-  Opening an bug issue here will make it easier for us to keep all the dialog about it in one place, and you can see when it gets closed with a fix.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
-
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
----
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Feature Requests
+- All feature ideas will be reviewed, so don't be shy.
+- Ideas for entirely new apps are also appreciated.
