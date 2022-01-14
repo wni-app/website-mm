@@ -38,3 +38,15 @@ Sales - A vendor's sales team creates a shared thread for each prospect that rea
 Support - The support team creates a shared thread for each new customer case and provides the ID back to the customer if they wish to join from Microsoft Teams or Slack.  This enables the customer to loop their entire team into the conversation as needed.
 
 Legal - Legal sets up a shared thread for each new client file it is working on and sends the ID to the client to join.  This allows a internal legal team discussions (e.g. among a partner and associate) to occur in the same thread as the messages with the client, making it easier to see the status of a file.  Clients also find this more useful than an email thread because they can discuss the case internally without having all the messages go to the legal team, which can be distracting and expensive.
+
+## Installation
+Microsoft Teams:  Ask the Teams administrator to upload a the Teams app package custom app to your organization's app catalog using the Shared Thread - Teams app package.  From there, add the app to a team.  Some useful links:
+- thsi
+- 
+
+
+  See this Teams install how-to video.
+
+Slack:  Any team member can click on this Shared Thread - Add to Slack link to install the app in a workspace.  The app then needs to be invited into each channel you wish to use it in.  If you @mention the app, Slack will ask you if you want to invite it.  See this Slack install how-to video.
+
+Alpha Preview:  This app is currently in alpha preview, please [let us know](mailto:heya@wni.app) if you find any bugs or things that could be better.
