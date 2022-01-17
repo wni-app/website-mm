@@ -5,21 +5,8 @@ author_profile: true
 author:
   name   : "Enables a channel to message another channel, in any organization."
   avatar : "/assets/images/fluent_share_xlarge.png"
-  bio    : "Install app into Microsoft Teams or Slack using the following:"
-  home   : /shared-thread/
-  links:
-    - label: "Microsoft Teams App Package"
-      icon: "fas fa-cloud-download-alt"
-      url: "SharedThread.zip"
-    - label: "Add to Slack Workspace"
-      icon: "fab fa-slack"
-      url: "https://slack.com/oauth/v2/authorize?scope=chat%3awrite%2cchat%3awrite.customize%2capp_mentions%3aread%2cgroups%3aread%2cusers%3aread%2cusers.profile%3aread%2cchannels%3aread%2cteam%3aread&client_id=2537782468113.2859934187347&redirect_uri=https%3a%2f%2fslack.botframework.com%2fHome%2fauth%2fv2&state=SharedThread"
-
-sidebar:
- - image: /assets/images/Microsoft Teams_500.png
-   image_alt: "teams"
- - image: /assets/images/Slack-500.png
-   image_alt: "slack"
+  bio    : "[Click to install](/shared-thread/#installation)"
+  home   : /shared-thread/#installation
 
 toc: true
 toc_label: "Table of Contents"
