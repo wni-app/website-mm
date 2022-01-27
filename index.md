@@ -19,20 +19,20 @@ feature_row:
     url: "/shared-thread/#microsoft-teams"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/Slack-500.png
-    alt: "slacklogo"
-    title: "App for Slack"
-    excerpt: "Share a thread between Slack channels, in any organization."
-    url: "/shared-thread/#slack"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - image_path: /assets/images/Azure Bot Service_500.png
     alt: "botservicelogo"
     title: "Built on Azure Bot Service"
     excerpt: "Apps run securely the Azure cloud using the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/).  "
     url: "/about/#how-we-do-it"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
+  - image_path: /assets/images/Slack-500.png
+    alt: "slacklogo"
+    title: "App for Slack"
+    excerpt: "Share a thread between Slack channels, an alternative to Slack Connect."
+    url: "/shared-thread/"
+    btn_class: "btn--primary"
+    btn_label: "Coming Soon"  
 ---
 
 {% include feature_row %}
