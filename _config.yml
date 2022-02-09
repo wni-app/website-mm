@@ -25,12 +25,18 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-RD0D33XTR1"
+    anonymize_ip: false # default
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages

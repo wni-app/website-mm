@@ -23,7 +23,7 @@ feature_row:
     alt: "botservicelogo"
     title: "Built on Azure Bot Service"
     excerpt: "Apps run securely the Azure cloud using the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/).  "
-    url: "/about/#how-we-do-it"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/Slack-500.png
