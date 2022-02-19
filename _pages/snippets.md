@@ -1,3 +1,9 @@
+Depending on your Microsoft Teams [org settings](https://docs.microsoft.com/en-us/microsoftteams/teams-custom-app-policies-and-settings), custom apps can be added by a team member, a team owner, or an org administrator.  Here is a [video demo](https://www.youtube.com/watch?v=cqxjc1DzKZw) of installation.
+
+**[Custom app package](./SharedThread.zip) you need to upload to Microsoft Teams.**
+
+
+
 
 **Works between Microsoft Teams and Slack.** Native shared channel features only work if everyone is on the same messaging platform, which means your team will often default to using email for interoperability.  Shared Thread can interoperate between Microsoft Teams and Slack, so you can keep more of your external collaboration in chat.
 

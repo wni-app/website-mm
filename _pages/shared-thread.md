@@ -1,12 +1,12 @@
 ---
 permalink: /shared-thread/
-title: "Shared Thread"
+title: "Shared Thread by WNI"
 author_profile: true
 author:
   name   : "Enables a channel to share a thread externally."
   avatar : "/assets/images/fluent_share_xlarge.png"
-  bio    : "[Click to install](/shared-thread/#installation)"
-  home   : /shared-thread/#installation
+  bio    : "[Click to install](/shared-thread/#instructions)"
+  home   : /shared-thread/#instructions
 
 toc: true
 toc_label: "Table of Contents"
@@ -18,28 +18,26 @@ Shares a thread between channels for external collaboration, as an alternative t
 ## Problems it solves
 
 **Keeps internal and external messages together.**  
-Currently, to get a complete picture of what has been discussed in a project, team members must piece together the messages from their internal channel with the external messages to the client in email or a shared channel.  Using Shared Thread, a channel can share a thread that is used for both internal and external messages about a topic, keeping everything together.  This improves productivity as everything is now in one place, and the external messages are interleaved chronologically with the internal messages.  Also, since all participants in the shared thread benefit from this, it is easy to get others to adopt.
+Currently, to get a complete picture of what has been discussed in a project, team members must piece together the messages from their internal channel with the external messages to the client in email or a shared channel.  Using Shared Thread by WNI, a channel can share a thread that is used for both internal and external messages about a topic, keeping everything together.  This improves productivity as everything is now in one place, and the external messages are interleaved chronologically with the internal messages.  Also, since all participants in the shared thread benefit from this, it is easy to get others to adopt.
 
 **Scales to large numbers of external projects.**  
 If your team is collaborating on dozens of external projects at once, as often happens in client-facing functions like sales, support, services, IT, HR, etc., using a separate shared channel for each project doesn't scale well.  Shared Thread allows you to have the collaboration benefits of chat, with the scalability of email, since it also works at the thread level.  There is no limit to the number of external projects your team can handle, all from within the same internal channel.
 
-## Installation
-This app is in preview and not yet in the app store.  Depending on your Microsoft Teams [org settings](https://docs.microsoft.com/en-us/microsoftteams/teams-custom-app-policies-and-settings) , custom apps can be added by a team member, a team owner, or an org administrator.  Here is a [video demo](https://www.youtube.com/watch?v=cqxjc1DzKZw) of installation.
+## Instructions
+### Add the app to your team
+Got to the [Teams app store](https://teams.microsoft.com/l/app/33830d7f-553a-46ce-99b3-4dc436b28e45), and select the team you would like to add the app to.  The app only works in public channels, and it cannot be added to a group or personal chat.
 
-**[Custom app package](./SharedThread.zip) you need to upload to Microsoft Teams.**
-
-## Usage
-Any member of a channel can use the app.  Typically there are only 2-3 channels in a shared thread, but there is no limit.  Here is a [video demo](https://www.youtube.com/watch?v=-us4x9ADrhA) of using the app in Microsoft Teams.
+Any member of the team can use the app.  Here is a [video demo](https://www.youtube.com/watch?v=-us4x9ADrhA) of using the app in Microsoft Teams.
 {% include video id="-us4x9ADrhA" provider="youtube" %}
 
 ### Create a new thread
-@mention the app followed by the command NewThread and the topic of the thread, e.g. `@Shared Thread NewThread Recruiting for Senior Pharmacist at Ballard site [Contoso HR - Rx Recruiters]`.  Putting the participants in brackets at end of the topic helps indicate who is part of the thread. This creates a new conversation/thread in the channel with the topic in the first message so it is easy to see what the thread is about.  A message with the instructions on how others can join will also be sent which includes the thread ID.  You can forward this to the other channel(s) you want to share the thread with by email, DM, or if you've already got another shared thread going with them, use that. 
+@mention the app followed by the command NewThread and the topic of the thread, e.g. `@Shared Thread by WNI NewThread Recruiting for Senior Pharmacist at Ballard site [Contoso HR - Rx Recruiters]`.  Putting the participants in brackets at end of the topic helps indicate who is part of the thread. This creates a new conversation/thread in the channel with the topic in the first message so it is easy to see what the thread is about.  A message with the instructions on how others can join will also be sent which includes the thread ID.  You can forward this to the other channel(s) you want to share the thread with by email, DM, or if you've already got another shared thread going with them, use that. 
 
 Creating a new thread in Microsoft Teams:
 ![](/assets/images/NewThread.png)
 
 ### Join a thread
-Another channel can join a shared thread by @mentioning the app followed by JoinThread and the thread ID, e.g. `@Shared Thread JoinThread 965cfd81-77bd-43d5-a4fc-c940ba800920`.  This creates a new conversation/thread in the participant's channel, with the same thread topic message as the one created in the host's channel.  Channels joining the shared thread can be in any team, in any organization.
+Another channel can join a shared thread by @mentioning the app followed by JoinThread and the thread ID, e.g. `@Shared Thread by WNI JoinThread 965cfd81-77bd-43d5-a4fc-c940ba800920`.  This creates a new conversation/thread in the participant's channel, with the same thread topic message as the one created in the host's channel.  Channels joining the shared thread can be in any team, in any organization.
 
 Joining a thread from Microsoft Teams:
 
@@ -92,26 +90,31 @@ The support team creates a shared thread for each new customer case and shares i
 Legal sets up a shared thread for each new client file it is working on and sends the ID to the client to join.  This allows a internal legal team discussions (e.g. among a partner and associate) to occur in the same thread as the messages with the client, making it easier to see the status of a file.  
 
 ## Pricing
-Free while in preview.  
+### Free edition 
+Shared threads only remain active for 30 days from the date they are created.  After that, the thread will not relay any new shared messages.  The thread remains usable for internal messages, and no messages are ever deleted.  
+
+This 30 day time limit is waived until the Pro edition launches (see below).
+### Pro edition
+Coming soon.
+
+Shared threads remain active with no time limit as long as the user who created them has an active subcription.
 
 ## Limitations
-These are some of the current limitations of this app:
+Some current limitations are as follows:
 
-*Only works in channels.*  Group and personal chat in Microsoft Teams does not support threaded conversations.
+- *Only works in channels.*  Group and personal chats are not supported.
 
-*Plain text messages only.* Any formatting (e.g. **bold**, *italics*, [links](/), etc.) will be stripped off and the plain text version will be sent.  An @mention will be converted to the person's name in plain text. In the case of a [link](/), just the word "link" will be sent, so make sure to paste the link in plain text like https://www.wni.app/home.
+- *Plain text messages only.* Any formatting (e.g. **bold**, *italics*, [links](/), etc.) will be removed and the plain text version will be sent.  An @mention will be converted to the person's name in plain text. In the case of a [link](/), just the word "link" will be sent, so make sure to paste the link in plain text like https://www.wni.app/home.
 
-*No file or picture attachments.*  If you need to send an attachment, send a plain text link to the file instead.
+- *No file or picture attachments.*  If you need to send an attachment, send a plain text link to the file instead.
 
-*No profile pictures or presence.*  These would be cool, but it is a bit of a privacy issue so we've left it out for now.
+- *No profile pictures or presence.*  These would be cool, but it is a bit of a privacy issue so we've left it out for now.
 
-*No reactions.*  You'll just have to reply with an old-school text emoji :)
+- *No reactions.*  You'll just have to reply with an old-school text emoji :)
 
 ## Architecture and Security
 
-![](/assets/images/SharedThreadArch.png)
-
-The basic flow of a message is as shown in the above diagram.  The [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/) is responsible for receiving messages from Microsoft Teams and Slack and passing them securely to the app's code running on the Azure App Service.
+The [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/) is responsible for receiving messages from Microsoft Teams and passing them securely to the app's code running on the Azure App Service.
 
 The app only sees messages that @mention it first, it does not have access to the other messages or files in a channel.
 
