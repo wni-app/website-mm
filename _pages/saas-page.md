@@ -2,10 +2,13 @@
 permalink: /saas-page/
 title: 'Shared Thread Pro'
 ---
+<script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+<mgt-msal2-provider client-id="9ad1833b-af9f-4e29-9530-3d0612e8d98f"></mgt-msal2-provider>
+<mgt-login></mgt-login>
 
 Thank you for subscribing!
 
-Please click the link below to be re-directed to Microsoft Teams and activate your subscription.
+Please click the link below to go to Microsoft Teams and activate your subscription.
 
 <a id="deepLink" href="https://wni.app/shared-thread/">Activate Subscription</a>
 
