@@ -18,7 +18,7 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     let params = (new URL(document.location)).searchParams;
     let token = params.get('token');
     // set intro text
-    var plainMsg = "Welcome to Shared Thread by WNI. To activate your subscription, please send this message unaltered. SubscriptionToken|" + token + "|";
+    var plainMsg = "Welcome to Shared Thread by WNI.  To activate your subscription, please send this message unaltered. SubscriptionToken|" + token + "|";
     var encodedMsg = encodeURIComponent(plainMsg);
     // set message to append to deeplink with token
     // var message = dli + token + "|";
@@ -27,11 +27,13 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     // dl.innerHTML = token;
     dl.href = "https://teams.microsoft.com/l/chat/0/0?users=28:9ad1833b-af9f-4e29-9530-3d0612e8d98f&message=" + encodedMsg; 
 
-    ga(function(tracker) {
-        var clientId = tracker.get('clientId');
-    });
+gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
+  updateCid(clientID)
+});
 
-    document.getElementById("cid").innerHTML = clientId
+function updateCid(clientID) {
+  document.getElementById("cid").innerHTML = clientID
+}
     
 </script>
 
