@@ -11,6 +11,7 @@ Thank you for subscribing!
 Please click the link below to go to Microsoft Teams and activate your subscription.
 
 <a id="deepLink" href="https://wni.app/shared-thread/">Activate Subscription</a>
+<p id="cid">replace with cid</p>
 
 <script>
     // get query param
@@ -25,6 +26,13 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     // Set the href property on link
     // dl.innerHTML = token;
     dl.href = "https://teams.microsoft.com/l/chat/0/0?users=28:9ad1833b-af9f-4e29-9530-3d0612e8d98f&message=" + encodedMsg; 
+
+    ga(function(tracker) {
+        var clientId = tracker.get('clientId');
+    });
+
+    document.getElementById("cid").innerHTML = clientId
+    
 </script>
 
 
