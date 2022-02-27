@@ -26,14 +26,11 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     // Set the href property on link
     // dl.innerHTML = token;
     dl.href = "https://teams.microsoft.com/l/chat/0/0?users=28:9ad1833b-af9f-4e29-9530-3d0612e8d98f&message=" + encodedMsg; 
+    document.getElementById("cid").innerHTML = 'some text';
 
-gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
-  updateCid(clientID)
-});
-
-function updateCid(clientID) {
-  document.getElementById("cid").innerHTML = clientID
-}
+    gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
+    document.getElementById("cid").innerHTML = clientID;
+    });
     
 </script>
 
@@ -45,6 +42,11 @@ window.onload = function() {
        //between the <a ...> </a> tags with the value of splitText
    document.getElementById("myLink").innerHTML=splitText;
 } 
+
+function updateCid(clientID) {
+  document.getElementById("cid").innerHTML = clientID
+}
+
 
     var dli = document.getElementById("deepLinkIntro").innerHTML;
     var test = "some test text";
