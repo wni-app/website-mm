@@ -10,8 +10,10 @@ Thank you for subscribing!
 
 Please click the link below to go to Microsoft Teams and activate your subscription.
 
+<a id="testLink" href="http://127.0.0.1:4000/landing/?utm_source=promo_email&utm_medium=email&utm_campaign=january_promo&utm_content=copy_variation1">Test Referrer</a>
+
+
 <a id="deepLink" href="https://wni.app/shared-thread/">Activate Subscription</a>
-<p id="cid">replace with cid</p>
 
 <script>
     // get query param
@@ -26,11 +28,6 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     // Set the href property on link
     // dl.innerHTML = token;
     dl.href = "https://teams.microsoft.com/l/chat/0/0?users=28:9ad1833b-af9f-4e29-9530-3d0612e8d98f&message=" + encodedMsg; 
-    document.getElementById("cid").innerHTML = 'some text';
-
-    gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
-    document.getElementById("cid").innerHTML = clientID;
-    });
     
 </script>
 
@@ -57,6 +54,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/URL/searchParams#Example
 <mgt-msal2-provider client-id="9ad1833b-af9f-4e29-9530-3d0612e8d98f"></mgt-msal2-provider>
 <mgt-login></mgt-login>
 <mgt-person person-query="me" view="twoLines"></mgt-person>
+
+ gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
+    document.getElementById("cid").innerHTML = clientID;
+    });
+document.getElementById("cid").innerHTML = 'some text';
 
 https://saasacceleratorwni-portal.azurewebsites.net/?token=ebk87h9T9OPBY%2fYyV2APj20iFUYVZTYwTWdtd%2fcTNmQ6PLrsTIjKN6WqGDQbkLPxQ8nr7zcYlYufPxHFMVpzqlCsk7NtC2IO6Dyu7AdYGzSGiIuGRO29RdUB5Eq5s8%2b8jDqWU560ARtgQzCaZYWUmSzgx69mJe9funGb7z1qw0H9%2blvP3UDS3kazYMbLaX56Irz3fj2wYWm4H0qyd%2fm0htHfnA1wLORAacI%2bwupKuUo6WlZiYexshQw3Ry7bGGgE
 -->
