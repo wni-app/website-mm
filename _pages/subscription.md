@@ -22,7 +22,7 @@ Please click the link below to go to Microsoft Teams and activate your subscript
     // get query param
     let subId = (new URL(document.location)).searchParams.get('subId');
     // create deep link 
-    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:c7714737-5076-4766-abdd-de8a054960d8&message=" + "ClientID |" + clientID + "|" + "SubId |" + subId + "|";
+    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:c7714737-5076-4766-abdd-de8a054960d8&message=" + "ClientID |" + clientID + "|" + subId + "|";
     });
      
 </script>
