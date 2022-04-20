@@ -1,6 +1,6 @@
 ---
-permalink: /landing/
-title: 'Landing'
+permalink: /add-relay/
+title: 'Add Relay app to Microsoft Teams'
 ---
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RD0D33XTR1"></script>
@@ -13,13 +13,16 @@ title: 'Landing'
 </script>
 
 
-Please click the link below to go to Microsoft Teams and activate your subscription.
+Please click the link below to add Relay to Microsoft Teams.
 
-<a id="deepLink" href="">Go to Teams</a>
+This will open Microsoft Teams and pre-populate a message with a registration code - just click send.
+
+<a id="deepLink" href="">Add Relay to Microsoft Teams</a>
 
 <script>
+
     gtag('get', 'G-RD0D33XTR1', 'client_id', (clientID) => {
-    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:c7714737-5076-4766-abdd-de8a054960d8&message=" + "ClientID |" + clientID + "|";
+    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:84ffaaf8-79ee-4e23-9b03-176c29bcf55b&message=" + "To register for the Relay app, please send this message.  UP_ID|" + clientID + "|";
     });
      
 </script>
