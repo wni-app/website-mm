@@ -26,7 +26,7 @@ This will open Microsoft Teams with a pre-populated message containing your subs
     // get query param
     let subId = (new URL(document.location)).searchParams.get('subId');
     // create deep link 
-    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:84ffaaf8-79ee-4e23-9b03-176c29bcf55b&message=" + "Please send us this message to activate your subscription. Sub_ID|" + subId + "|";
+    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:d8fcd2b6-8a0d-4b26-9cd1-8717a59b464a&message=" + "Please send us this message to activate your subscription. Sub_ID|" + subId + "|";
      
 </script>
 
