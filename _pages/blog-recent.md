@@ -4,5 +4,5 @@ author_profile: false
 permalink: /blog/
 sidebar:
   - title: "Blog"
-    text: "**[Recent Posts](/blog/)**  \n**[Archive](/posts/)**  \n**[Categories](/categories/)**  \n**[Tags](/tags/)**"
+    text: "**[Recent Posts](/blog/)**  \n**[Archive](/posts/)**  \n**[Tags](/tags/)**"
 ---
