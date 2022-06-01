@@ -1,12 +1,12 @@
 ---
-permalink: /receipt-scanner/
-title: "Receipt Scanner by WNI"
+permalink: /receiptscan/
+title: "ReceiptScan"
 author_profile: true
 author:
   name   : "Extracts data from a picture of a receipt."
-  avatar : "/assets/images/receipt-scanner.svg"
+  avatar : "/assets/images/ReceiptScan-main-fs.png"
   bio    : "[Join Beta](/support/)"
-  home   : /receipt-scanner/
+  home   : /receiptscan/
 
 toc: true
 toc_label: "Table of Contents"
