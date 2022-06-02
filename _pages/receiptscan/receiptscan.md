@@ -21,7 +21,21 @@ Streamline expense reporting by extracting the merchant, location, date, and pur
 * Quickly record receipts by simply taking a picture of them while you are travelling.
 * Makes receipts searchable in Teams and email (e.g. search by merchant name).  
 
-## Instructions for use
+## Demonstration
+
+[Demo Video for iOS](https://youtu.be/07L57PdiADM)
+
+[Demo Video for web/desktop](https://youtu.be/rbPN0T01TsQ)
+
+Example receipts to use for testing/demo purposes:
+
+[Example Receipt 1](/_pages/receiptscan/contoso.png)
+
+[Example Receipt 2](/_pages/receiptscan/main-st.JPG)
+
+[Example Receipt 2](/_pages/receiptscan/main-st.JPG)
+
+## Instructions
 
 ### Send a receipt picture
 
