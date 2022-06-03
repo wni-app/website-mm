@@ -1,6 +1,6 @@
 main:
-  - title: "ReceiptScan"
-    url: /receiptscan/
+# - title: "ReceiptScan"
+#   url: /receiptscan/
   - title: "Shared Thread"
     url: /shared-thread/  
   - title: "About"

@@ -50,7 +50,9 @@ Example receipts to use for testing/demo purposes:
 
 ## Pricing
 
-Free version can process up to 100 receipts total.The Pro version can process unlimited receipts.
+Free version can process up to 100 receipts total.
+
+The Pro version can process unlimited receipts.
 
 
 ## Limitations
