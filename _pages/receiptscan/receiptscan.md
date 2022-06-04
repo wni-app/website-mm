@@ -29,10 +29,14 @@ Streamline expense reporting by extracting the merchant, date, and purchase amou
 ## Demo Videos
 
 **Desktop/Web**
-{% include video id="rbPN0T01TsQ" provider="youtube" %}
+
+This is a demo using the Teams web client and also includes a demo of a companion Power Automate flow.
+{% include video id="m8d564XxObw" provider="youtube" %}
 
 **Mobile (iOS)**
-{% include video id="07L57PdiADM" provider="youtube" %}
+
+This is a demo using the Teams iOS client.  
+{% include video id="q3zo5NFD6sk" provider="youtube" %}
 
 ## Example Receipts
 You can use these receipts for testing:
@@ -59,7 +63,7 @@ Once the image is process the app will reply with a form that contains the extra
 After you click Submit, the receipt values will be sent to the configured email address.  Once the email arrives in your inbox, you can process it further with one or more of the following approaches:
 
 * Inbox rule: Set up a rule to move messages from receiptscan@wni.app to a specific receipts inbox folder, and optionally forward a copy to your bookkeeper.
-* Power Automate: Set up a trigger for new emails from receiptscan@wni.app, parse the email body which contains JSON of receipt values, and then push values into a spreadsheet, accounting software, etc.
+* Power Automate: Set up a trigger for new emails from receiptscan@wni.app, parse the email body (receipt values are in JSON format), and then push values into a spreadsheet, accounting software, etc.
 
 An example of both of these approaches is shown in the following video:
 
