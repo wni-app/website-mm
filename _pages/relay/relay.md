@@ -1,12 +1,12 @@
 ---
-permalink: /relaye/
-title: "Relaye"
+permalink: /relay/
+title: "Relay"
 author_profile: true
 author:
   name: "Enables a channel to have a conversation with non-members"
-  avatar: "/_pages/relaye/relaye-color.png"
-  bio: "[Relaye Beta](mailto:info@wni.app?subject=Relaye%20Beta)"
-  home: /relaye/
+  avatar: "/_pages/relay/color.png"
+  bio: "[Relay Beta](mailto:info@wni.app?subject=Relay%20Beta)"
+  home: /relay/
 
 toc: true
 toc_label: "Table of Contents"
@@ -16,13 +16,13 @@ toc_sticky: true
 
 ## Overview
 
-Relaye enables employees to have a conversation with a channel using Teams without needing to be a member of the channel, or making the channel Org-wide. This is ideal for service desk channels that handle employee-specific questions (e.g. HR, IT), where it doesn't make sense to use an Org-wide channel, or add them as members of the channel. Often these situations are handled using a shared mailbox e.g. hr@contoso.com. Relaye enables these conversations to stay in Teams, and comes with the added benefit that the service desk channel can privately discuss the messages from the employee in the same channel conversation, similar to shared inbox tools like Front, etc.
+Relay enables employees to have a conversation with a channel using Teams without needing to be a member of the channel, or making the channel Org-wide. This is ideal for service desk channels that handle employee-specific questions (e.g. HR, IT), where it doesn't make sense to use an Org-wide channel, or add them as members of the channel. Often these situations are handled using a shared mailbox e.g. hr@contoso.com. Relay enables these conversations to stay in Teams, and comes with the added benefit that the service desk channel can privately discuss the messages from the employee in the same channel conversation, similar to shared inbox tools like Front, etc.
 
 ## How it works
 
 - Once added to a team, the app generates a unique link (like a mailto: link, but for Teams) for each channel, which can then be posted where employees can access it (e.g. on an HR intranet site).
-- When an employee clicks on the channel link, it opens their Teams app with a message to the Relaye app pre-populated that initiates a conversation with the channel.
-- The Relaye app posts their message into the channel, and people in the channel can respond to the employee via the Relaye app. The employees do not need to install the Relaye app.
+- When an employee clicks on the channel link, it opens their Teams app with a message to the Relay app pre-populated that initiates a conversation with the channel.
+- The Relay app posts their message into the channel, and people in the channel can respond to the employee via the Relay app. The employees do not need to install the Relay app.
 
 ## Benefits
 
@@ -54,9 +54,9 @@ This is a demo using the Teams iOS client.
 
 ### Employee clicks channel link
 
-- When an employee clicks on the channel link, it is like a mailto: email link, except for Teams. It will open the Teams client and pre-populate a message to the Relaye app such as the following: "To start a conversation with Contoso IT Helpdesk, please click send. RelayeID |d9ekcdke0|".
+- When an employee clicks on the channel link, it is like a mailto: email link, except for Teams. It will open the Teams client and pre-populate a message to the Relay app such as the following: "To start a conversation with Contoso IT Helpdesk, please click send. RelayeID |d9ekcdke0|".
 - When the employee sends the message to the bot, it responds with an adaptive card confirming the channel name, and asks the employee to enter their message. When the employee hits submit, the card refreshes to include their message, and then sends the message to the channel.
-- Since the employee is just having a conversation with the bot, and no additional permissions are needed, it is not necessary for the employee to install the Relaye app in the personal context.
+- Since the employee is just having a conversation with the bot, and no additional permissions are needed, it is not necessary for the employee to install the Relay app in the personal context.
 
 ### Channel receives message
 
