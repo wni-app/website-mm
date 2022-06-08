@@ -52,6 +52,7 @@ This will open Microsoft Teams and pre-populate a message with your subscription
 
 <!--
 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 // let _sub = (new URL(document.location)).searchParams.get('_sub');
     // console.log(_sub);
     // let subUrl = `https://monastoragejixuxogwmzgyg.blob.core.windows.net${_sub}`
