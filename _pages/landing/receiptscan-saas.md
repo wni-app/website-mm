@@ -15,6 +15,6 @@ This will open Microsoft Teams and pre-populate a message with your subscription
     let token = (new URL(document.location)).searchParams.get('token');
     console.log(token);
     // create deep link 
-    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:0f65bd5f-d2d5-4b06-81fe-0986232f0c8a&message=" + "Please send us this message to activate your subscription. Subscription Token: |" + encodeURIComponent(token) + "|"
+    document.getElementById("deepLink").href = "https://teams.microsoft.com/l/chat/0/0?users=28:0f65bd5f-d2d5-4b06-81fe-0986232f0c8a&message=" + encodeURIComponent("Please send us this message to activate your subscription. Subscription Token: |" + token + "|");
 
 </script>
