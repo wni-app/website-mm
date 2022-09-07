@@ -1,13 +1,12 @@
 main:
-  - title: "ReceiptScan"
-    url: /receiptscan/
-  - title: "Shared Thread"
-    url: /shared-thread/  
+  - title: "Apps"
+    url: /apps/
+  - title: "Services"
+    url: /services/
   - title: "About"
     url: /about/
   # - title: "Blog"
   #   url: /blog/
-
 # docs:
 #   - title: Blog
 #     children:
@@ -17,7 +16,7 @@ main:
 #         url: /categories/
 #       - title: "Tags"
 #         url: /tags/
-    
+
 #       - title: "Quick-Start Guide"
 #         url: /docs/quick-start-guide/
 #       - title: "Structure"

@@ -2,37 +2,37 @@
 layout: splash
 permalink: /
 hidden: true
-title: Shared Thread
+title: Apps for Microsoft Teams
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "Get Shared Thread"
-      url: "/shared-thread/"
+    - label: "Learn More"
+      url: "/apps/"
 excerpt: >
-    Share a thread between channels for external collaboration.
+  Use our pre-built apps out of the box, or have us build a custom app for your use case.
 feature_row:
-  - image_path: /assets/images/Microsoft Teams_500.png
-    alt: "teamslogo"
-    title: "App for Microsoft Teams"
-    excerpt: "Share a thread between Microsoft Teams channels, in any organization."
-    url: "/shared-thread/#microsoft-teams"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/Azure Bot Service_500.png
-    alt: "botservicelogo"
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
     title: "Built on Azure Bot Service"
-    excerpt: "Apps run securely the Azure cloud using the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-services/).  "
+    excerpt: "Apps are built using Node.js and run on the Azure Bot Service."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/Slack-500.png
-    alt: "slacklogo"
-    title: "App for Slack"
-    excerpt: "Share a thread between Slack channels, an alternative to Slack Connect."
-    url: "/shared-thread/"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "bespoke apps"
+    title: "Source code available"
+    excerpt: "Full control over app code and hosting in your Azure tenant."
+    url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "Coming Soon"  
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "responsive"
+    title: "Mobile ready"
+    excerpt: "Apps work on Microsoft Teams desktop, web, and mobile apps."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row %}
