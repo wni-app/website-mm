@@ -53,7 +53,7 @@ This is a demo using the Teams iOS client.
 
 ### User clicks channel link
 
-- When a user clicks on the channel link, it will open the Teams client and pre-populate a message to the Relaydesk app such as the following: "To start a conversation with Contoso IT Helpdesk, please click send. RelaydeskID |d9ekcdke0|".
+- When a user clicks on the channel link, it will open the Teams client and pre-populate a message to the Relaydesk app such as the following: "To start a conversation with Contoso IT Helpdesk, please click send. RelaydeskID #d9ekcdke0#".
 - When the user sends the message to the app, it responds with an adaptive card confirming the channel name, and asks the user to enter their message. When the user hits submit, the card refreshes to include their message, and then sends the message to the channel.
 - Since the user is just having a conversation with the app, and no additional permissions are needed, and it is not necessary for the user to install the Relaydesk app.
 
