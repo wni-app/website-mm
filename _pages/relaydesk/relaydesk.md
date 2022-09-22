@@ -4,7 +4,7 @@ title: "Relaydesk"
 author_profile: true
 author:
   name: "Enables a help desk channel to have a conversation with an employee"
-  avatar: "/_pages/Relaydesk/color.png"
+  avatar: "/_pages/relaydesk/color.png"
   bio: "[POC App](/_pages/relaydesk/appPackage.local.zip)"
   home: /relaydesk/
 
