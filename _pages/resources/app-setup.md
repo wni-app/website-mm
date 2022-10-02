@@ -233,3 +233,28 @@ jobs:
 
 - Commit the changes of adding the workflow files to main, which will trigger the action to do an initial deployment to prod. You can then create a dev branch and when that is committed you should have an initial deployment to dev also.
 - You can launch the dev and prod Teams app from within the Teams Toolkit to test that everything is working as expected. Make sure to give it a couple min after deployment for the web app to come online, and if it is not responding look at the Logs for the web app using the Azure extension for VS Code.
+
+### Creating new local debug setup
+
+- Clone repo into VS Code
+- Start ngrok
+- Configure config.local.json with bot.siteEndpoint url
+- Run debug in chrome or edge, this will create local bot registration and .env.teamsfx.local file.
+
+### Faster and simpler local debugging
+
+Instead of using the default Teams Toolkit VS Code launch configuration, which takes 10-15 seconds and launches an new browser window each time, it is more convenient to use the following VS Code launch configuration (in /.vscode/launch.json):
+
+```
+{
+			"command": "npm run watch",
+			"name": "Run npm watch",
+			"request": "launch",
+			"type": "node-terminal",
+			"cwd": "${workspaceFolder}/bot",
+			"envFile": "${workspaceFolder}/bot/.env.teamsfx.local"
+}
+```
+
+- This will launch in a few seconds and does not create a new browser session and try to install the Teams app again.
+- Just remember that if you update the Teams app you need to build a new one and upload it manually to Teams.
